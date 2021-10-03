@@ -1,5 +1,13 @@
-let x = Number(prompt("Enter number x: 0<=x<=9 "));
-
+let x;
+do
+{
+    x = Number(prompt("Enter a number :"));
+    if(x < 0 || x > 9)
+    {
+        alert("Entered number is not valid");
+    }
+}
+while( x < 0 || x > 9)
 if( x > 4 )
 {
     alert("Higher half of 9");
