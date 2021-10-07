@@ -14,7 +14,3 @@ else if(luaChon = 'c')
     alert('Done')
 }
     
-// else
-// {
-//     alert("This command is not supported")
-// }
