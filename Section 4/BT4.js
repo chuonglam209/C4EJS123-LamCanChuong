@@ -18,29 +18,38 @@ while(true){
         explanation = prompt('Leave your explanation');
         dicTionary[choose] = explanation;
         console.log(dicTionary);
+        alert('Done')
         choose = prompt("Enter a keyword ");
 
     }
-    else if(choose == 'debug' ){
-        alert('debug \n'+ dicTionary.debug);
-        choose = prompt("Enter a keyword next ");
+    for(let x in dicTionary)
+    {
+        if (choose == x){
+            alert(x+':\n' + dicTionary[x]);
+            choose = prompt("Enter a keyword ");
+
+        }
     }
-    else if(choose == 'done'){
-        alert(choose +'\n' + dicTionary.done);
-        choose = prompt("Enter a keyword next ");
-    }
-    else if(choose == 'defect'){
-        alert(choose + '\n' + dicTionary.defect);
-        choose = prompt("Enter a keyword next ");
-    }
-    else if(choose == 'pm'){
-        alert(choose + '\n' + dicTionary.pm);
-        choose = prompt("Enter a keyword next ");
-    }
-    else if(choose == 'ui'){
-        alert(choose + '\n' + dicTionary.ui);
-        choose = prompt("Enter a keyword next ");
+    // else if(choose == 'debug' ){
+    //     alert('debug \n'+ dicTionary.debug);
+    //     choose = prompt("Enter a keyword next ");
+    // }
+    // else if(choose == 'done'){
+    //     alert(choose +'\n' + dicTionary.done);
+    //     choose = prompt("Enter a keyword next ");
+    // }
+    // else if(choose == 'defect'){
+    //     alert(choose + '\n' + dicTionary.defect);
+    //     choose = prompt("Enter a keyword next ");
+    // }
+    // else if(choose == 'pm'){
+    //     alert(choose + '\n' + dicTionary.pm);
+    //     choose = prompt("Enter a keyword next ");
+    // }
+    // else if(choose == 'ui'){
+    //     alert(choose + '\n' + dicTionary.ui);
+    //     choose = prompt("Enter a keyword next ");
         
-    }
+    // }
     
 }
