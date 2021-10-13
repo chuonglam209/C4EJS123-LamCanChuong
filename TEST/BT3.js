@@ -1,15 +1,25 @@
-let array = [1,2,3,4,5,6,5,7,8,9,6,4,1,2];
-// for(let i = 0; i < array.length - 1; i++)
+// let array = [1,2,3,4,5,6,5,7,8,9,6,4,1,2,6,5,7,8,];
+// let arrayFix = [];
+
+// for(let i = 0 ; i < array.length; i++)
 // {
-//     for (let j = 1; i < array.length;j++)
-//     if(array[i] == array[j])
-//     array.splice(j, 1);
-//     j = i +1;
-//     // for(let x in array )
-//     // console.log(x);
+//     if(!arrayFix.includes(array[i]))
+//     {
+//          arrayFix.push(array[i]);
+//     }
+    
+
 // }
-let arrFix = array.reduce(
-    (accumulator, currentItem) => accumulator.includes(currentItem) ? accumulator : [...accumulator, currentItem],
-    []
-);
-    console.log(arrFix);
+// console.log(...arrayFix)
+
+// // let arrFix = array.reduce(
+// //     (accumulator, currentItem) => accumulator.includes(currentItem) ? accumulator : [...accumulator, currentItem],
+// //     []
+// // );
+//     // console.log(arrFix);
+{
+    const arr = [8,5,5,5,9,4,3,1,2,6,0,7,1,1,0,5,9,9,6,0,3,2,0];
+    const newarr = [... new Set(arr)] 
+    console.log(newarr);
+
+}
