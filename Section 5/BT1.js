@@ -39,3 +39,7 @@ let quiZ = [
 let  rand0m = quiZ[~~(Math.random() * quiZ.length)];
 
 
+
+
+
+
