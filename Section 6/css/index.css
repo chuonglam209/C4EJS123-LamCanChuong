@@ -1,0 +1,33 @@
+
+
+/* BT1 */
+.color1{
+    color: red;
+}
+/* BT2 */
+.color2{
+    color: #00FF00;
+}
+/* BT3 */
+h2 ,p {
+    font-size: 24px;
+}
+/* BT5 */
+#div2{
+    color: blue;
+  }
+
+
+/* BT7 */
+  ul {
+      font-weight : bold;
+  }
+
+
+  .item > span {
+      font-size: 18px;
+  }
+  .item > div > span
+  {
+        font-style: italic;
+    }
