@@ -4,14 +4,24 @@
 .color1{
     color: red;
 }
+
+
+
+
 /* BT2 */
 .color2{
     color: #00FF00;
 }
+
+
+
 /* BT3 */
 h2 ,p {
     font-size: 24px;
 }
+
+
+
 /* BT5 */
 #div2{
     color: blue;
@@ -21,10 +31,14 @@ h2 ,p {
     color: yellowgreen;
   }
 
+
+
 /* BT7 */
   ul {
       font-weight : bold;
   }
+
+
 
 /* BT9 */
   .item > span {
