@@ -16,7 +16,10 @@ h2 ,p {
 #div2{
     color: blue;
   }
-
+  /* BT6 */
+  a[target="_blank"] {
+    color: yellowgreen;
+  }
 
 /* BT7 */
   ul {
