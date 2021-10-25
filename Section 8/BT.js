@@ -14,8 +14,9 @@
 
 
 
-
-
+// BT3
+// 3.1 dont exists
+// 3.2 exists
 
 // BT4
  
